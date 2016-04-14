@@ -1,28 +1,22 @@
 {
   "name": "moonlit-cdn",
   "version": "1.0.0",
-  "description": "A Beautiful CDN for the Night",
-  "main": "dex.js",
+  "description": "a private cdn",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/espresso-math/common-cdn.git"
   },
-  "author": "Fell Monster",
+  "author": "fae-monster",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/espresso-math/common-cdn/issues"
   },
   "homepage": "https://github.com/espresso-math/common-cdn#readme",
   "devDependencies": {
-    "git-scripts": "^0.2.1",
     "surge": "^0.17.7"
-  },
-  "git": {
-    "scripts": {
-      "pre-push": "surge --project ./ --domain https://moonlit-cdn.surge.sh"
-    }
   }
 }
